@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+     background-color:goldenrod transparent; 
+     background-image: url(./baground.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+.login-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.input-group {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+ .signup-container{
+    background-color: #ccc;
+    border-radius: 5px;
+    padding: 30px;
+    border-radius: 5px;
+ }
+ .sign-in-img{
+    height: 60vh;
+ }
+ .sign-both{
+    display: flex;
+    gap: 7px;
+    background:white;
+    border-radius: 10px;
+    padding: 10px;
+ }
+.btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+p {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+p a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+/* Error message styling */
+.error {
+    color: red;
+    font-size: 12px;
+    display: block;
+    margin-top: 5px;
+}
+
+
+
+@media only screen and (max-width: 800px){
+    
+    
+.signup-container{
+    background-color: #ccc;
+    border-radius: 5px;
+    padding: 30px;
+    border-radius: 5px;
+ }
+ .sign-in-img{
+    height: 1vh;
+ }
+ .sign-both{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    background:white;
+    border-radius: 10px;
+    padding: 10px;}
+}
+
